@@ -71,7 +71,7 @@ Below, we generate a dataset containing all South American species and informati
   
   * **2. Consolidated List of South American birds with their ecological and morphological data from AVONET**: It includes all morphological and ecological data in AVONET for all South American birds. For dry diagonal birds, there is extra information on occurrence.
 
- * **The final list is exported as a csv filed called ""Final_traitdata_Bdd_birds.csv"**
+ * **The final list is exported as a csv file called "Final_traitdata_Bdd_birds.csv"**
 
 ```{r, message=FALSE, warning = FALSE}
 
