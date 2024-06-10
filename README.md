@@ -1,11 +1,8 @@
----
-output: github_document
----
 
 ---
-title: "Merging Avian Trait Data for Trait Analyses - Dry Diagonal"
-author: "G. A. Bravo"
-date: "Updated on June 10, 2024"
+# "Merging Avian Trait Data for Trait Analyses - Dry Diagonal"
+## "G. A. Bravo"
+### date: "Updated on June 10, 2024"
 output: html_document
 ---
 
