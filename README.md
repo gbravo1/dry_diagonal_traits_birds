@@ -1,18 +1,18 @@
 
 ---
-# Merging Avian Trait Data for Trait Analyses - Dry Diagonal
-## G. A. Bravo
-### June 10, 2024
+## Merging Avian Trait Data for Trait Analyses - Dry Diagonal
+### G. A. Bravo
+#### June 10, 2024
 ---
 
-# 1. Setting working directory and loading packages:
+## 1. Setting working directory and loading packages:
 
 ```{r, message=FALSE, warning = FALSE}
 library(tidyverse)
 setwd("/Users/gustavo/Desktop/DryDiagonTraitsOctober2022/")
 ```
 
-# 2. Reading Data
+## 2. Reading Data
 
 **1. AVONET Morphological data:** 
 
@@ -61,7 +61,7 @@ avonet_eco_data <- read.csv("AVONET_EcoData.csv") %>%
 ```
 
 
-**3. Merging datasets**
+## 3. Merging datasets
 
 Below we generate a dataset containing all South American species containing information from the dry diagonal bird list (south_american). A final dataset including AVONET morphological and ecological data for all South American species is created.
 
