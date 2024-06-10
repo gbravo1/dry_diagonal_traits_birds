@@ -65,6 +65,13 @@ avonet_eco_data <- read.csv("AVONET_EcoData.csv") %>%
 
 Below, we generate a dataset containing all South American species and information from the dry diagonal bird list (south_american). A final dataset, including AVONET morphological and ecological data for all South American species, is created.
 
+Below, we generate a dataset containing all South American species and information from the dry diagonal bird list (south_american). A final dataset, including AVONET morphological and ecological data for all South American species, is created.
+
+  * **1. List of South American birds with dry diagonal information**: It creates a list of all South American birds including all fields in the list of dry diagonal birds.
+  
+  * **2. Consolidated List of South American birds with their ecological and morphological data from AVONET**: It includes all morphological and ecological data in AVONET for all South American birds. For dry diagonal birds, there is extra information on occurrence.
+    
+
 ```{r, message=FALSE, warning = FALSE}
 
 # List of South American birds with dry diagonal information
