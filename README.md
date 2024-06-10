@@ -16,7 +16,7 @@ setwd("/Users/gustavo/Desktop/DryDiagonTraitsOctober2022/")
 
 **1. AVONET Morphological data:** 
 
-Obtained from AVONET (Tobias et al. 2021 https://onlinelibrary.wiley.com/doi/10.1111/ele.13898). This table corresponds to the sheet called "AVONET_RAW_Data" in Supplementary dataset 1 (https://doi.org/10.6084/m9.figshare.16586228.v1). See metadata description in Tobias et al. (2021) and its supporting information.
+Obtained from AVONET (Tobias et al. 2021 https://onlinelibrary.wiley.com/doi/10.1111/ele.13898). This table corresponds to the sheet called "AVONET_RAW_Data" in Supplementary dataset 1 (https://doi.org/10.6084/m9.figshare.16586228.v1). See metadata description in Tobias et al. (2021 https://onlinelibrary.wiley.com/doi/10.1111/ele.13898) and its supporting information.
 
 **2. List of birds of the dry diagonal:** 
 
