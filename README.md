@@ -1,9 +1,8 @@
 
 ---
-# "Merging Avian Trait Data for Trait Analyses - Dry Diagonal"
-## "G. A. Bravo"
-### date: "Updated on June 10, 2024"
-output: html_document
+# Merging Avian Trait Data for Trait Analyses - Dry Diagonal
+## G. A. Bravo
+### June 10, 2024
 ---
 
 # 1. Setting working directory and loading packages:
