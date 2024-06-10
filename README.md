@@ -16,21 +16,21 @@ setwd("/Users/gustavo/Desktop/DryDiagonTraitsOctober2022/")
 
 **1. AVONET Morphological data:** 
 
-Obtained from AVONET (Tobias et al. 2021 https://onlinelibrary.wiley.com/doi/10.1111/ele.13898). This tables corresponds to the sheet called "AVONET_RAw_Data" in Supplementary dataset 1 (https://doi.org/10.6084/m9.figshare.16586228.v1). See metadata description in Tobias et al. (2021) and its supporting information.
+Obtained from AVONET (Tobias et al. 2021 https://onlinelibrary.wiley.com/doi/10.1111/ele.13898). This table corresponds to the sheet called "AVONET_RAW_Data" in Supplementary dataset 1 (https://doi.org/10.6084/m9.figshare.16586228.v1). See metadata description in Tobias et al. (2021) and its supporting information.
 
 **2. List of birds of the dry diagonal:** 
 
-This is a list put together by the Naka Lab in Brazil. Included fields can be defined as follows:
+This is a list put together by the Naka Lab at the Universidade Federal de Pernambuco (UFPE) in Brazil. Included fields can be defined as follows:
 
   * **Taxon**: Species name according to CBRO (Pacheco et al. 2021 https://link.springer.com/article/10.1007/s43388-021-00058-x)
-  * **Birdtree_tiplabel**: Name of species in the Jet el at (2012; https://birdtree.org/) phylogeny of birds.
-  * **TaxCategory**: Denotes whetehr the taxon is a subpscies or a species. This dataset will be read filtering by species only.
-  * **Synonyms_Gbif**: name of this taxon by GBIF (https://www.gbif.org/species/212)
-  * **DryDiagonal**: Denotes whether the taxon occurs in the Dry Diagonal.This field was added to enable a quick comparison with other South American birds. 
+  * **Birdtree_tiplabel**: Name of species in the Jetz et al (2012; https://birdtree.org/) phylogeny of birds.
+  * **TaxCategory**: Denotes whether the taxon is a subspecies or a species. This dataset is read filtering by species only.
+  * **Synonyms_Gbif**: Name of this taxon according to GBIF (https://www.gbif.org/species/212).
+  * **DryDiagonal**: Denotes whether the taxon occurs in the Dry Diagonal. This field was added to enable a comparison with other South American birds (see below). 
   * **Caatinga**: Denotes whether the species occurs in the Caatinga.
   * **Cerrado**: Denotes whether the species occurs in the Cerrado.
   * **Chaco**: Denotes whether the species occurs in the Chaco.
-  * **Endemica**: Denotes the region where the species is endemic to. CA: Caatinga; CE: Cerrado; CH: Chaco; Q_: Stands for "Quase", meaning "almost endemic to", followed by the region. Some taxa also can be endemic to two regions e.g.: Caatinga/Cerrado CA/CH.
+  * **Endemica**: Denotes the region where the species is endemic to. CA: Caatinga; CE: Cerrado; CH: Chaco; Q_: Stands for "Quase", meaning "almost endemic to", followed by the two first letters of the region. Some taxa can also be endemic to two regions e.g.: Caatinga/Cerrado CA/CH.
   * **Comments**: Assorted comments on taxonomy, distribution, etc.
   
 **3. List of birds of South America:**
@@ -63,7 +63,7 @@ avonet_eco_data <- read.csv("AVONET_EcoData.csv") %>%
 
 ## 3. Merging datasets
 
-Below we generate a dataset containing all South American species containing information from the dry diagonal bird list (south_american). A final dataset including AVONET morphological and ecological data for all South American species is created.
+Below, we generate a dataset containing all South American species and information from the dry diagonal bird list (south_american). A final dataset, including AVONET morphological and ecological data for all South American species, is created.
 
 ```{r, message=FALSE, warning = FALSE}
 
